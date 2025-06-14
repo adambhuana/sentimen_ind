@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from collections import Counter
 
-from app import sentistrength, config  # Pastikan class sentistrength & config ini benar
+from streamlit_app import sentistrength, config  # Pastikan class sentistrength & config ini benar
 
 # Inisialisasi sentistrength
 senti = sentistrength(config)
